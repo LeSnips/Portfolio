@@ -1,0 +1,10 @@
+/* Base */
+body {
+  background-color: #0f172a;
+  color: #94a3b8;
+}
+
+/* Lien de navigation actif */
+.nav-link.active {
+  color: #5eead4; /* tailwind teal-300 */
+}
