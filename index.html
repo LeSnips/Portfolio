@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio | Étudiant Ingénieur Cybersécurité & Systèmes</title>
+
+  <!-- Tailwind CSS via CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body { background-color: #0f172a; color: #94a3b8; }
-  </style>
+
+  <!-- Styles personnalisés -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body class="selection:bg-teal-300 selection:text-teal-900 leading-relaxed antialiased">
   <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
@@ -27,20 +29,20 @@
           </p>
 
           <!-- Navigation rapide -->
-          <nav class="hidden lg:block mt-16">
+          <nav class="hidden lg:block mt-16" aria-label="Navigation rapide">
             <ul class="w-max space-y-3 uppercase text-xs tracking-widest font-semibold">
-              <li><a href="#about" class="text-slate-400 hover:text-slate-200 transition">À Propos</a></li>
-              <li><a href="#projects" class="text-slate-400 hover:text-slate-200 transition">Projets</a></li>
-              <li><a href="#involvement" class="text-slate-400 hover:text-slate-200 transition">Engagements</a></li>
+              <li><a href="#about" class="nav-link text-slate-400 hover:text-slate-200 transition">À Propos</a></li>
+              <li><a href="#projects" class="nav-link text-slate-400 hover:text-slate-200 transition">Projets</a></li>
+              <li><a href="#involvement" class="nav-link text-slate-400 hover:text-slate-200 transition">Engagements</a></li>
             </ul>
           </nav>
         </div>
 
         <!-- Liens et CV -->
         <div class="mt-8 flex items-center gap-5 text-sm font-medium">
-          <a href="https://github.com/ton-pseudo" target="_blank" class="text-slate-300 hover:text-teal-300 transition">GitHub</a>
-          <a href="https://linkedin.com/in/ton-profil" target="_blank" class="text-slate-300 hover:text-teal-300 transition">LinkedIn</a>
-          <a href="./cv.pdf" target="_blank" class="rounded border border-teal-300/30 px-3 py-1 text-teal-300 hover:bg-teal-300/10 transition">CV PDF ↗</a>
+          <a href="https://github.com/ton-pseudo" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-teal-300 transition">GitHub</a>
+          <a href="https://linkedin.com/in/ton-profil" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-teal-300 transition">LinkedIn</a>
+          <a href="./cv.pdf" target="_blank" rel="noopener noreferrer" class="rounded border border-teal-300/30 px-3 py-1 text-teal-300 hover:bg-teal-300/10 transition">CV PDF ↗</a>
         </div>
       </header>
 
@@ -63,9 +65,9 @@
           <h3 class="text-sm font-bold uppercase tracking-widest text-slate-200">Projets Sélectionnés</h3>
 
           <!-- Projet 1 : PST Button Quest -->
-          <div class="group relative rounded-lg p-4 transition hover:bg-slate-850/50 hover:bg-slate-800/40 border border-transparent hover:border-slate-700/50">
+          <div class="group relative rounded-lg p-4 transition hover:bg-slate-800/40 border border-transparent hover:border-slate-700/50">
             <h4 class="font-medium leading-snug text-slate-200">
-              <a href="https://github.com/ton-pseudo/ton-repo" target="_blank" class="inline-flex items-center hover:text-teal-300">
+              <a href="https://github.com/ton-pseudo/ton-repo" target="_blank" rel="noopener noreferrer" class="inline-flex items-center hover:text-teal-300">
                 PST Button Quest
                 <span class="ml-1 text-xs">↗</span>
               </a>
@@ -99,7 +101,7 @@
           <!-- Projet 3 : CTFs & Sécurité -->
           <div class="group relative rounded-lg p-4 transition hover:bg-slate-800/40 border border-transparent hover:border-slate-700/50">
             <h4 class="font-medium leading-snug text-slate-200">
-              <a href="https://github.com/ton-pseudo/writeups" target="_blank" class="inline-flex items-center hover:text-teal-300">
+              <a href="https://github.com/ton-pseudo/writeups" target="_blank" rel="noopener noreferrer" class="inline-flex items-center hover:text-teal-300">
                 Compétitions CTF & Write-ups
                 <span class="ml-1 text-xs">↗</span>
               </a>
@@ -138,5 +140,8 @@
       </main>
     </div>
   </div>
+
+  <!-- Script JS -->
+  <script src="script.js"></script>
 </body>
 </html>
