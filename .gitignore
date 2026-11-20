@@ -1,0 +1,21 @@
+# Dépendances (le plus important)
+node_modules
+
+# Dossiers de build générés par Vite
+dist
+dist-ssr
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Variables d'environnement / secrets
+.env
+.env.local
+
+# Fichiers système et éditeur
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
