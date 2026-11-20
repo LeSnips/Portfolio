@@ -10,8 +10,6 @@ function Profile() {
         
         <span className="text-primary/70 text-sm font-bold uppercase tracking-wider mb-1">Poste /</span>
         <h2 className="text-2xl mb-4 text-light/90">Étudiant Ingénieur</h2>
-        
-        <span className="text-primary/70 text-sm font-bold uppercase tracking-wider mb-1">Status /</span>
         <span className="text-primary/70 text-sm font-bold uppercase tracking-wider mb-1">Status /</span>
         <a
             href="./CV_Couanon_Thomas.pdf"
@@ -26,10 +24,10 @@ function Profile() {
       <div className="border border-primary/40 rounded-lg p-6">
         <span className="text-primary/70 text-sm font-bold uppercase tracking-wider mb-2 block">Bio /</span>
         <p className="text-light/70 leading-relaxed text-sm">
-          Actuellement étudiant ingénieur, spécialisé en cybersécurité et développement système. 
-          Fort d'une expérience d'échange académique en Corée du Sud au SeoulTech, j'ai développé une grande capacité d'adaptation. 
-          Je suis passionné par l'architecture bas niveau (C, Python) et l'administration de systèmes Linux, 
-          privilégiant toujours une approche "hands-on" pour comprendre le fonctionnement interne des technologies.
+          Actuellement en cycle ingénieur, 
+          je monte en compétences sur la cybersécurité, l'infrastructure et le développement système. 
+          Plutôt que de rester sur la théorie, j'apprends sur le terrain : challenges CTF, déploiement de services sous Linux/Docker et projets mêlant hardware et code (C, Python). 
+          Enrichi par un semestre d'échange à SeoulTech en Corée du Sud, je cherche aujourd'hui une alternance pour m'investir sur des projets réels et continuer à monter en niveau au quotidien.
         </p>
       </div>
     </div>
