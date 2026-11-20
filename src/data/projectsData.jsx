@@ -79,8 +79,9 @@ export const horsInfoProjects = [
       "Ce projet m'a permis de rencontrer des personnes avec qui je n'aurais jamais forcément discuter ainsi que des compétences importantes comme l'organisation, la logistique et la gestion de projet."
     ],
     skills: ["Organisation", "Logistique", "Gestion de projet"],
-    images: [{ src: "/images/Course_repas_hj2.jpg", alt: "Événement Horizon Japon" }, { src: "/images/Moshi_ouvert.jpg", alt: "Moshi ouvert" }
-      , { src: "/images/cuisson poulet.jpg", alt: "Cuisson du poulet" }
+    images: [ { src: "./images/Course_repas_hj2.jpg", alt: "Événement Horizon Japon" }, 
+              { src: "./images/Moshi_ouvert.jpg", alt: "Moshi ouvert" },
+              { src: "./images/cuisson_poulet.jpg", alt: "Cuisson du poulet" }
     ],
     links: []
   },
